@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nether_smelting",
+  "version": "${version}",
+  "name": "Nether Smelting",
+  "description": "A simple mod that makes furnaces smelt twice as fast in the Nether",
+  "authors": [
+    "Ramixin"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nether_smelting/icon.png",
+  "environment": "*",
+  "mixins": [
+    "nethersmelting.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=1.21.2"
+  }
+}
